@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Kingsley') {
             steps {
-                sh 'ps -ef'
+                sh 'whoami'
                 sh 'sudo systemctl status jenkins'
             }
         }
