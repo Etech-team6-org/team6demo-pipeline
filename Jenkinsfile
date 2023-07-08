@@ -11,7 +11,7 @@ pipeline {
 
         stage('Oby') {
             steps {
-                sh 'ps -ef'
+                sh 'pwd'
                 sh 'sudo systemctl status jenkins'
             }
         }
